@@ -1,0 +1,5 @@
+# This file makes sure that line endings are configured in the correct way.
+* text=auto eol=lf
+# Windows batch scripts need CRLF as line endings
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
