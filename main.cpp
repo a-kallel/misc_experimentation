@@ -1,7 +1,8 @@
 #include <iostream>
+#include "hello.hpp"
 
 int main(int argc, char const *argv[])
 {
-    std::cout<<"Hello World"<<std::endl;
+    SayHello();
     return 0;
 }
